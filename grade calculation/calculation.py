@@ -1,4 +1,66 @@
 import csv
+import random
+
+def generate_dataset(num_students):
+    subjects = ['Maths', 'Physics', 'Chemistry', 'Biology', 'English']
+    dataset = []
+
+    for i in range(num_students):
+        student = {}
+        student['Name'] = f"Student {i+1}"
+        student['USN'] = f"USN{i+1:04d}"
+        student['Subjects'] = {}
+
+        for subject in subjects:
+            marks = {
+                'ISA1': random.randint(0, 40),
+                'ISA2': random.randint(0, 40),
+                'ESA': random.randint(0, 100),
+                'Assignments': random.randint(0, 20)
+            }
+            student['Subjects'][subject] = marks
+
+        dataset.append(student)
+
+    return dataset
+
+def save_dataset_to_csv(dataset, filename):
+    with open(filename, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Name', 'USN', 'Maths (ISA1)', 'Maths (ISA2)', 'Maths (ESA)', 'Maths (Assignments)',
+                         'Physics (ISA1)', 'Physics (ISA2)', 'Physics (ESA)', 'Physics (Assignments)',
+                         'Chemistry (ISA1)', 'Chemistry (ISA2)', 'Chemistry (ESA)', 'Chemistry (Assignments)',
+                         'Biology (ISA1)', 'Biology (ISA2)', 'Biology (ESA)', 'Biology (Assignments)',
+                         'English (ISA1)', 'English (ISA2)', 'English (ESA)', 'English (Assignments)'])
+        for student in dataset:
+            row = [student['Name'], student['USN']]
+            for subject, marks in student['Subjects'].items():
+                row.extend([marks['ISA1'], marks['ISA2'], marks['ESA'], marks['Assignments']])
+            writer.writerow(row)
+
+# Generating dataset for 10 students
+num_students = 10
+dataset = generate_dataset(num_students)
+
+# Saving dataset to CSV
+save_dataset_to_csv(dataset, 'student_dataset.csv')
+print("Dataset saved successfully as 'student_dataset.csv'")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import csv
 
 def calculate_grade(subject_marks):
     total_marks = 0
