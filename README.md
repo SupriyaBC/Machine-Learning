@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PySudoku
 # Sudoku Game with Tkinter
 
@@ -18,3 +19,6 @@ This is a simple Sudoku game implemented using Tkinter in Python. The game provi
 ## Installation
 
 Clone the repository:
+=======
+# Machine-Learning
+>>>>>>> 1b3da5aeb7795e7eccefe1b93612890e82372690
