@@ -129,7 +129,4 @@ The provided code implements a simple neural network model using the Keras libra
 
 This project demonstrates a basic approach to gender prediction from images based on hair length features using neural networks. Further improvements could involve experimenting with different architectures, augmenting the dataset, and incorporating additional features for more accurate predictions.
 
----
 
->>>>>>> Gender-Prediction-from-Images-Based-on-Hair-Length-Features-using-Neural-Networks/main
->>>>>>> Gender-Prediction-from-Images-Based-on-Hair-Length-Features-using-Neural-Networks-branch
