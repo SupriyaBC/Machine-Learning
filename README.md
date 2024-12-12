@@ -1,4 +1,21 @@
+# Emotion Detection and Related Projects
 
+This repository includes various machine learning and data science projects, including emotion detection using EEG signals, a Sudoku game using Tkinter, student performance analysis, synthetic dataset creation, and gender prediction from images based on hair length using neural networks. Below is an overview of each project.
+
+---
+
+## Emotion Detection Using EEG Signals
+
+### Purpose:
+This project aims to predict emotions based on EEG signals using machine learning algorithms. It leverages signal processing techniques and models for classification.
+
+### Features:
+- EEG data preprocessing
+- Feature extraction from EEG signals
+- Machine learning models for emotion classification
+- Evaluation of model performance
+
+---
 
 # PySudoku
 ## Sudoku Game with Tkinter
