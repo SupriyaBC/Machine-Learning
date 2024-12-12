@@ -36,7 +36,7 @@ This is a simple Sudoku game implemented using Tkinter in Python. The game provi
 
 
 
-
+---
 
 
 # Student-Performance-Analysis
@@ -89,7 +89,7 @@ Iterate through each student's data in the dataset and calculate the subject-wis
 3. Display the subject-wise percentage and grade for each student.
 4. Optionally, aggregate the data to calculate overall performance metrics such as average percentage or grade distribution across subjects.
 
-
+---
 
 # Synthetic Dataset Creation
 
@@ -112,7 +112,7 @@ This repository contains Python code to generate a synthetic dataset using `pand
 - numpy
 - random
 
-
+---
 
 # Gender Prediction from Images Based on Hair Length Features using Neural Networks
 
