@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
 # PySudoku
 # Sudoku Game with Tkinter
 
@@ -24,8 +24,7 @@ Clone the repository:
 # Machine-Learning
 >>>>>>> 1b3da5aeb7795e7eccefe1b93612890e82372690
 =======
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Student-Performance-Analysis
 
 # Guide: Dataset Creation to Grade Calculation
