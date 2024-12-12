@@ -17,7 +17,8 @@ This is a simple Sudoku game implemented using Tkinter in Python. The game provi
 - Python 3.x
 - Tkinter (usually included with Python)
 
-## Installation
+
+
 
 
 
@@ -70,8 +71,7 @@ Iterate through each student's data in the dataset and calculate the subject-wis
 2. For each student, iterate through each subject and calculate the percentage and grade using the previously defined function.
 3. Display the subject-wise percentage and grade for each student.
 4. Optionally, aggregate the data to calculate overall performance metrics such as average percentage or grade distribution across subjects.
->>>>>>> Student-Performance-Analysis/main
-=======
+
 
 
 # Synthetic Dataset Creation
