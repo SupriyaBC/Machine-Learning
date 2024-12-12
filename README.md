@@ -1,7 +1,7 @@
 
 
 # PySudoku
-# Sudoku Game with Tkinter
+## Sudoku Game with Tkinter
 
 This is a simple Sudoku game implemented using Tkinter in Python. The game provides a Sudoku board for the player to solve and includes features like selecting cells, validating the solution, and solving the puzzle.
 
@@ -24,7 +24,7 @@ This is a simple Sudoku game implemented using Tkinter in Python. The game provi
 
 # Student-Performance-Analysis
 
-# Guide: Dataset Creation to Grade Calculation
+## Guide: Dataset Creation to Grade Calculation
 
 ## 1. Dataset Creation:
 
@@ -96,9 +96,7 @@ This repository contains Python code to generate a synthetic dataset using `pand
 - random
 
 
->>>>>>> synthetic-dataset-creation/main
->>>>>>> synthetic-dataset-creation-branch
-=======
+
 # Gender Prediction from Images Based on Hair Length Features using Neural Networks
 
 ## Problem Statement
