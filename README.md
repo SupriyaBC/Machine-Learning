@@ -1,3 +1,31 @@
+# Audience Rating Prediction Model
+
+This repository contains a machine learning project aimed at predicting **audience ratings** based on a given dataset. The project demonstrates the complete pipeline, including data preprocessing, model building, hyperparameter optimization, and model evaluation.
+
+## Overview
+
+The objective of this project is to predict the `audience_rating` variable using a machine learning model. The solution involves:
+- Preprocessing the dataset to handle missing values and encode categorical variables.
+- Building a regression model using **Random Forest Regressor**.
+- Optimizing the model with **GridSearchCV** for improved accuracy.
+- Validating the model using performance metrics such as **R-squared (R²)** and **Mean Squared Error (MSE)**.
+
+## Features
+
+- **Preprocessing**: Data cleaning and encoding.
+- **Pipeline**: A robust and modular approach using `scikit-learn` pipelines.
+- **Hyperparameter Tuning**: Efficient parameter search using `GridSearchCV`.
+- **Model Evaluation**: Comprehensive evaluation with R² and MSE metrics.
+- **Saved Model**: Trained model available for reuse (`audience_rating_model.pkl`).
+
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/audience-rating-prediction.git
+   cd audience-rating-prediction
+---
 # Emotion Detection and Related Projects
 
 This repository includes various machine learning and data science projects, including emotion detection using EEG signals, a Sudoku game using Tkinter, student performance analysis, synthetic dataset creation, and gender prediction from images based on hair length using neural networks. Below is an overview of each project.
